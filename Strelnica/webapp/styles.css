@@ -1,0 +1,225 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* /////////////////////////////// */
+/* General header styles */
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(220, 220, 220);
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Style for the username and logout button */
+.user-header p {
+    margin: 0;
+    color: #343a40;
+    font-size: 18px;
+}
+
+.logout-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+/* Styles for the cart link */
+.cart-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.cart-link:hover {
+    color: #0056b3;
+}
+
+.secoundary-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styles for the admin buttons */
+.admin-buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.admin-form-wrapper {
+    margin-right: 20px;
+}
+
+.admin-styled-button {
+    padding: 10px 20px;
+    border: none;
+    background-color:  #008CBA;
+    color: #fff;
+    cursor: pointer;
+}
+
+.admin-styled-button:hover {
+    background-color: #007B9A;
+}
+
+
+/* footer */
+.footer-link {
+        display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid rgb(192, 192, 192);
+        border-radius: 5px;
+        background-color: rgb(192, 192, 192);
+        color: #333;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        left: 50%;
+    	transform: translate(-50%, 0);
+}
+
+.obj-list{
+	    display: inline-block;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        border: 1px solid rgb(192, 192, 192);
+        border-radius: 5px;
+        background-color: rgb(192, 192, 192);
+        color: #333;
+        transition: background-color 0.3s, color 0.3s;
+        position: absolute;
+        right: -20px;
+    	transform: translate(-50%, 0);
+    	text-align: center;
+    	margin-top: 20px; 
+    	margin-left: 20px;
+}
+
+.footer-link:hover {
+    background-color: #ddd;
+    color: #555;
+}
+
+/* pokracovat v nakupe */
+.continue-shopping {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.continue-shopping-button {
+    margin-left: 20px;
+}
+
+.continue-shopping-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:  #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.continue-shopping-button:hover {
+    background-color: #007B9A;
+}
+
+/* logout */
+.logout-button:hover {
+    background-color: #c0392b;
+}
+
+
+.styled-button:hover {
+    background-color: rgb(0, 255, 255);
+}
+
+
+/* PRODUKTY */
+.product-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 19%; 
+    margin: 1%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.product-name, .product-price {
+    text-align: center; 
+}
+
+
+
+.product-name {
+    margin: 10px 0;
+}
+
+.buy-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.buy-button:hover {
+    background-color: #007B9A;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.order-card-button {
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(190, 0, 0);
+    border: none;
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+	transform: translate(-50%, 0);   
+}
+
+.order-card-button:hover {background-color: rgb(120, 0, 0)}
+
